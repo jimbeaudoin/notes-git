@@ -7,6 +7,15 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 ```
+git reset
+```sh
+--soft  # The staged snapshot and working directory are not altered in any way
+--mixed # The staged snapshot is updated to match the specified commit, 
+        # but the working directory is not affected. (default)
+--hard  # The staged snapshot and the working directory are both updated to match
+        # the specified commit
+        
+```
 Unclassified
 ```sh
 # Show Change History for a File
