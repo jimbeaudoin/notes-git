@@ -1,13 +1,13 @@
 # notes-git
 Git Notes for Myself
 
-Install Latest Version
+## Install Latest Version
 ```sh
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 ```
-git reset
+## git reset
 ```sh
 --soft  # The staged snapshot and working directory are not altered in any way
 --mixed # The staged snapshot is updated to match the specified commit, 
@@ -16,7 +16,7 @@ git reset
         # the specified commit
         
 ```
-Unclassified
+## Unclassified
 ```sh
 # Show Change History for a File
 git log -p <filename> 
