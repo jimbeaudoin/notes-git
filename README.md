@@ -7,6 +7,13 @@ sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 ```
+## Init Setup
+```sh
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+
 ## git reset
 ```sh
 --soft  # The staged snapshot and working directory are not altered in any way
