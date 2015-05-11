@@ -44,9 +44,7 @@ git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ## Unclassified
 ```sh
 # Show Change History for a File
-git log -p <filename> 
-# Set User Email
-git config --global user.email "your_email@example.com"
+git log -p <filename>
 ```
 
 --
