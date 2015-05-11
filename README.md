@@ -24,8 +24,23 @@ git config --global core.editor vim
         # but the working directory is not affected. (default)
 --hard  # The staged snapshot and the working directory are both updated to match
         # the specified commit
-        
 ```
+## Create Bare Directory
+```sh
+mkdir <project_name>.git
+cd <project_name>.git
+git init --bare
+```
+
+## Private Remote Server
+```sh
+# 1. Create a Bare Repository on the Remote Server
+# 2. Add the Remote Server to the local Git Repository
+# 3. Gut Push
+
+git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
+```
+
 ## Unclassified
 ```sh
 # Show Change History for a File
