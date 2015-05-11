@@ -12,7 +12,7 @@ sudo apt-get install git
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
-## Defaul Editor
+## Default Editor
 ```sh
 git config --global core.editor vim
 ```
