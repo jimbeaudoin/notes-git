@@ -36,7 +36,7 @@ git init --bare
 ```sh
 # 1. Create a Bare Repository on the Remote Server
 # 2. Add the Remote Server to the local Git Repository
-# 3. Gut Push
+# 3. Git Push
 
 git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ```
