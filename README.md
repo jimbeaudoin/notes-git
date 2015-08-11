@@ -45,6 +45,7 @@ git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ```sh
 # Show Change History for a File
 git log -p <filename>
+git ls-files | xargs wc -l # Show how many lines of code per files and total
 ```
 
 --
