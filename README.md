@@ -1,23 +1,23 @@
 # notes-git
 Git Notes for Myself
 
-## Install Latest Version
+### Install Latest Version
 ```sh
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 ```
-## Init Setup
+### Init Setup
 ```sh
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
-## Default Editor
+### Default Editor
 ```sh
 git config --global core.editor vim
 ```
 
-## git reset
+### git reset
 ```sh
 --soft  # The staged snapshot and working directory are not altered in any way
 --mixed # The staged snapshot is updated to match the specified commit, 
@@ -25,14 +25,15 @@ git config --global core.editor vim
 --hard  # The staged snapshot and the working directory are both updated to match
         # the specified commit
 ```
-## Create Bare Directory
+
+### Create Bare Directory
 ```sh
 mkdir <project_name>.git
 cd <project_name>.git
 git init --bare
 ```
 
-## Private Remote Server
+### Private Remote Server
 ```sh
 # 1. Create a Bare Repository on the Remote Server
 # 2. Add the Remote Server to the local Git Repository
@@ -41,7 +42,7 @@ git init --bare
 git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ```
 
-## Unclassified
+### Unclassified
 ```sh
 # Show Change History for a File
 git log -p <filename>
