@@ -42,6 +42,14 @@ git init --bare
 git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ```
 
+### Development commands
+```sh
+# Rebase & squash
+git rebase -i HEAD~5
+# Rename a branch
+git branch -m <old_name> <new_name>
+```
+
 ### Unclassified
 ```sh
 # Show Change History for a File
