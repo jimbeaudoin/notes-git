@@ -48,6 +48,8 @@ git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 git rebase -i HEAD~5
 # Rename a branch
 git branch -m <old_name> <new_name>
+# Pull branch to a branch
+git pull origin <remote_branch>:<local_branch>
 ```
 
 ### Unclassified
