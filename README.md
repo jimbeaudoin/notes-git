@@ -65,7 +65,7 @@ git ls-files | xargs wc -l # Show how many lines of code per files and total
 git instaweb --httpd=webrick
 
 # Stop the local server
-git instaweb --httpd=werbrick --stop
+git instaweb --httpd=webrick --stop
 
 # GitWeb Tips (Projects Name):
 git init an empty folder and inside do a ln -s /repos_path/.git <repos_name>
