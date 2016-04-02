@@ -71,6 +71,7 @@ git instaweb --httpd=webrick --stop
 git init an empty folder and inside do a ln -s /repos_path/.git <repos_name>
 Start gitweb from this folder with git instaweb --httpd=webrick
 You now have folder name inside GitWeb.
+/usr/share/gitweb/static
 ```
 
 --
