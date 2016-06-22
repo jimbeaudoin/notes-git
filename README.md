@@ -61,6 +61,8 @@ git ls-files | xargs wc -l # Show how many lines of code per files and total
 
 ### GitWeb
 ```sh
+sudo apt-get install libcgi-fast-perl
+
 # Start the local server
 git instaweb --httpd=webrick
 
