@@ -46,10 +46,17 @@ git remote add <remote_name> <ssh_info>:<bare_git_repos_path>
 ```sh
 # Rebase & squash
 git rebase -i HEAD~5
+
 # Rename a branch
 git branch -m <old_name> <new_name>
+
 # Pull branch to a branch
 git pull origin <remote_branch>:<local_branch>
+
+# Tag a Release
+git tag # List tags
+git tag v0.0.9 # Lightweight tag
+git tag -a v0.0.9 # Annoted tag (more information are stored)
 ```
 
 ### Unclassified
