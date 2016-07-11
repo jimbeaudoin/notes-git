@@ -57,6 +57,7 @@ git pull origin <remote_branch>:<local_branch>
 git tag # List tags
 git tag v0.0.9 # Lightweight tag
 git tag -a v0.0.9 # Annoted tag (more information are stored)
+git show v0.0.9 # Show info about tag
 ```
 
 ### Unclassified
